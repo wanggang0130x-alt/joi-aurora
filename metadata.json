@@ -1,0 +1,25 @@
+{
+  "name": "Joi Aurora 量化交易系统",
+  "slug": "joi-aurora",
+  "version": "2.0.0",
+  "description": "多Agent量化交易与投资决策系统，包含市场分析、风险控制、信号引擎。支持Polymarket、BTC短线、外汇、宏观事件分析。",
+  "author": "PawPicksCo AI Team",
+  "domain": "trading",
+  "risk_level": "high",
+  "framework": "multi-agent",
+  "requires_review": true,
+  "tags": ["trading", "quantitative", "polymarket", "btc", "forex", "risk-management", "multi-agent"],
+  "platform": "openclaw",
+  "files": [
+    "SKILL.md",
+    "README.md"
+  ],
+  "dependencies": {
+    "tools": ["web_search", "web_fetch"],
+    "skills": []
+  },
+  "trigger_keywords": [
+    "交易", "买", "卖", "仓位", "止损", "做多", "做空",
+    "入场", "Polymarket", "BTC", "短线", "量化", "投资"
+  ]
+}
